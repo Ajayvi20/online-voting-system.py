@@ -74,7 +74,7 @@ def vote(username):
     print("3. Charlie")
 
     choice = input("Enter choice (1/2/3): ")
-    candidates = {"1": "Alice", "2": "Bob", "3": "Charlie"}
+    candidates = {"1": "BRS", "2": "CONGRESS", "3": "BJP"}
 
     if choice in candidates:
         cur.execute("INSERT INTO votes VALUES (?)", (candidates[choice],))
